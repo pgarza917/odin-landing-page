@@ -113,3 +113,29 @@ body {
   gap: 10px;
   width: 160px;
 }
+
+.section-three {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-three .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 800px;
+}
+
+.quote-author {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+}
