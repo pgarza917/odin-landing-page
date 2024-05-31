@@ -53,6 +53,7 @@ body {
   font-size: 48px;
   font-weight: 900;
   color: #f9f8fa;
+  margin-bottom: 0;
 }
 
 .left .text {
@@ -62,10 +63,53 @@ body {
 
 .content {
   width: 1000px;
+}
+
+.section-one .content,
+.header .content {
   display: flex;
   justify-content: space-between;
 }
 
 .section-one .content {
   gap: 50px;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 50px;
+  gap: 60px;
+}
+
+.info-title {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding: 30px;
+}
+
+.info-item img {
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
+  border: 3px solid #3882f6;
+  flex: auto;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 160px;
 }
